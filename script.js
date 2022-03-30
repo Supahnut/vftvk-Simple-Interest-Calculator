@@ -8,7 +8,7 @@ function compute()
    
     document.getElementById("result").innerHTML=""
 
-    if(principal==0)
+    if(principal<=0)
     {
         alert("Enter a positive number");
         return;
