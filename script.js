@@ -11,6 +11,8 @@ function compute()
     if(parseInt(principal)<=0)
     {
         alert("Enter a positive number");
+        document.getElementById("principal").value="";
+        document.getElementById("principal").focus();
         return;
     }
     else
